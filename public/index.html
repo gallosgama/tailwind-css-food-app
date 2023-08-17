@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Food</title>
+</head>
+<body class="font-poppins">
+    <div class="grid sm:grid-cols-7 bg-gray-300">
+        <div class="sm:col-span-2 sm:flex sm:justify-end ">
+            <nav class="text-red-700 ">
+                <div class="pf-4 py-6 px-2 border-b border-grey-200 flex justify-between">
+                    <h1 class="">
+                        <a class="font-bold uppercase hover:text-red-800 " href="/">Indian cuisines</a>
+                    </h1>
+                    <div class="" id="burger">
+                        <svg class="w-6 sm:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                          </svg>
+                          
+
+
+                    </div>
+                </div>
+                <ul class="text-sm mt-6 p-2 hidden sm:block " id="menu">
+                    <li class="py-2">
+                        <a href="#" class="flex justify-end ">
+                            <span class="px-2">Home</span>
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                              </svg>
+                              
+                        </a>
+                    </li>
+                    <li class="py-2">
+                        <a href="#" class="flex justify-end">
+                            <span class="px-2">About</span>
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                              </svg>
+                              
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="flex justify-end">
+                            <span class="px-2">Contact</span>
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                              </svg>
+                              
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="px-16 py-6 bg-gray-200 sm:col-span-5">
+            <div class="text-pink-600 flex justify-center md:justify-end md:text-red-600">
+                <a class ="btn text-primary  md:bg-transparent  hover:text-white hover:bg-red-400   bg-red-200 border-red-950 border-2" href="#">Log in</a>
+                <a  class="ml-4 btn  md:bg-transparent hover:text-white hover:bg-red-400   bg-red-200 border-red-950 border-2" href="#">Sign in</a>
+
+            </div>
+
+            <header>
+                <h2 class="text-4xl">Recipies</h2>
+                <h3 class="text-2xl">For foodies</h3>
+            </header>
+
+            <div class="">
+                <h4 class="mt-6 pb-2 border-b border-grey-200">Latest recipies</h4>
+
+            <div class="mt-8 grid md:grid-cols-3 gap-10">
+                <div class=" card">
+                    <img src="./image/cb.webp" alt="" class="w-full sm:h-48 h-32 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Recipie name</span>
+                        <span class="block text-grey-500 text-sm">Made by</span>
+                    </div>
+                    <div class="badge flex items-center">
+                        <svg class="w-5 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                        <span>25 min</span>
+                    </div>
+                </div>
+
+                <div class=" card">
+                    <img src="./image/cb.webp" alt="" class="w-full sm:h-48 h-32 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Recipie name</span>
+                        <span class="block text-grey-500 text-sm">Made by</span>
+                    </div>
+                    <div class="badge flex items-center">
+                        <svg class="w-5 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                        
+                        <span>25 min</span>
+                    </div>
+                </div>
+
+                <div class=" card">
+                    <img src="./image/cb.webp" alt="" class="w-full sm:h-48 h-32 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Recipie name</span>
+                        <span class="block text-grey-500 text-sm">Made by</span>
+                    </div>
+                    <div class="badge flex items-center">
+                        <svg class="w-5 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          
+                        <span>25 min</span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <h4 class="mt-6 pb-2 border-b border-grey-200">Most Popular</h4>
+
+            <div class="mt-8">
+
+            </div>
+
+            <div class="flex justify-center ">
+                <div class="btn p-2 bg-red-600 max-w-xs">Load More</div>
+            </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
